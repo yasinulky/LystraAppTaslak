@@ -1,0 +1,333 @@
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/bin/Debug/net8.0/appsettings.Development.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/bin/Debug/net8.0/appsettings.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.runtime.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.endpoints.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.deps.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.runtimeconfig.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.dll
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.pdb
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfoInputs.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfo.cs
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.csproj.CoreCompileInputs.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cs
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.sourcelink.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/rjimswa.dswa.cache.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/bundle/LystraApp.styles.css
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/projectbundle/LystraApp.bundle.scp.css
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.json.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.development.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.dll
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/refint/LystraApp.dll
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.pdb
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.genruntimeconfig.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/LystraApp/obj/Debug/net8.0/ref/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfoInputs.cache
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfo.cs
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.csproj.CoreCompileInputs.cache
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cache
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cs
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.sourcelink.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/appsettings.Development.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/appsettings.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/appsettings.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/LystraApp.deps.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/LystraApp.runtimeconfig.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/LystraApp.staticwebassets.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/appsettings.Development.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/appsettings.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.deps.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.runtimeconfig.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.staticwebassets.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.runtime.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.deps.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.runtimeconfig.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.pdb
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rjimswa.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/bundle/LystraApp.styles.css
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/projectbundle/LystraApp.bundle.scp.css
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.json.cache
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.development.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/refint/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.pdb
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.genruntimeconfig.cache
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/ref/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/appsettings.Development.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/appsettings.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/publish/appsettings.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/publish/LystraApp.deps.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/publish/LystraApp.runtimeconfig.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/publish/LystraApp.staticwebassets.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/publish/publish/appsettings.Development.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/publish/publish/appsettings.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.deps.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.runtimeconfig.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.staticwebassets.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.runtime.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/LystraApp
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/LystraApp.deps.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/LystraApp.runtimeconfig.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/bin/Debug/net8.0/LystraApp.pdb
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfoInputs.cache
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfo.cs
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.csproj.CoreCompileInputs.cache
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cache
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cs
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.sourcelink.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/rjimswa.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/scopedcss/bundle/LystraApp.styles.css
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/scopedcss/projectbundle/LystraApp.bundle.scp.css
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/staticwebassets.build.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/staticwebassets.build.json.cache
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/staticwebassets.development.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/refint/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.pdb
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/LystraApp.genruntimeconfig.cache
+/Users/aliemrecelik/Desktop/LystraApp 2/LystraApp/obj/Debug/net8.0/ref/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/appsettings.Development.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/appsettings.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/appsettings.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/LystraApp.deps.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/LystraApp.runtimeconfig.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/LystraApp.staticwebassets.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/publish/appsettings.Development.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/publish/appsettings.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.deps.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.runtimeconfig.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.staticwebassets.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.runtime.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.deps.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.runtimeconfig.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.pdb
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfoInputs.cache
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfo.cs
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.csproj.CoreCompileInputs.cache
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cache
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cs
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.sourcelink.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/rjimswa.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/scopedcss/bundle/LystraApp.styles.css
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/scopedcss/projectbundle/LystraApp.bundle.scp.css
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/staticwebassets.build.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/staticwebassets.build.json.cache
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/staticwebassets.development.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/refint/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.pdb
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.genruntimeconfig.cache
+/Users/aliemrecelik/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/ref/LystraApp.dll
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/appsettings.Development.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/appsettings.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/appsettings.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/LystraApp.deps.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/LystraApp.runtimeconfig.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/LystraApp.staticwebassets.endpoints.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/publish/appsettings.Development.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/publish/appsettings.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.deps.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.runtimeconfig.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.staticwebassets.endpoints.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.endpoints.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.runtime.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.deps.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.runtimeconfig.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.dll
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/bin/Debug/net8.0/LystraApp.pdb
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfoInputs.cache
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfo.cs
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.csproj.CoreCompileInputs.cache
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cache
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cs
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.sourcelink.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/rjimswa.dswa.cache.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/scopedcss/bundle/LystraApp.styles.css
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/scopedcss/projectbundle/LystraApp.bundle.scp.css
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/staticwebassets.build.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/staticwebassets.build.json.cache
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/staticwebassets.development.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.dll
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/refint/LystraApp.dll
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.pdb
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/LystraApp.genruntimeconfig.cache
+/Users/betulkorkmaz/Desktop/LystraApp /LystraApp/obj/Debug/net8.0/ref/LystraApp.dll
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/appsettings.Development.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/appsettings.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/appsettings.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/LystraApp.deps.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/LystraApp.runtimeconfig.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/LystraApp.staticwebassets.endpoints.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/appsettings.Development.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/appsettings.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.deps.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.runtimeconfig.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.staticwebassets.endpoints.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.endpoints.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.runtime.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.deps.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.runtimeconfig.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.dll
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.pdb
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfoInputs.cache
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfo.cs
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.csproj.CoreCompileInputs.cache
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cache
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cs
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.sourcelink.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rjimswa.dswa.cache.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/bundle/LystraApp.styles.css
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/projectbundle/LystraApp.bundle.scp.css
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.json.cache
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.development.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.dll
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/refint/LystraApp.dll
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.pdb
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.genruntimeconfig.cache
+/Users/betulkorkmaz/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/ref/LystraApp.dll
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/appsettings.Development.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/appsettings.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/appsettings.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/LystraApp.deps.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/LystraApp.runtimeconfig.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/LystraApp.staticwebassets.endpoints.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/appsettings.Development.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/appsettings.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.deps.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.runtimeconfig.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.staticwebassets.endpoints.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.endpoints.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.runtime.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.deps.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.runtimeconfig.json
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.dll
+/Users/yasin/Desktop/LystraApp/LystraApp/bin/Debug/net8.0/LystraApp.pdb
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfoInputs.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfo.cs
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.csproj.CoreCompileInputs.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cs
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.sourcelink.json
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rjimswa.dswa.cache.json
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/bundle/LystraApp.styles.css
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/scopedcss/projectbundle/LystraApp.bundle.scp.css
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.json
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.json.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.development.json
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.dll
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/refint/LystraApp.dll
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.pdb
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/LystraApp.genruntimeconfig.cache
+/Users/yasin/Desktop/LystraApp/LystraApp/obj/Debug/net8.0/ref/LystraApp.dll
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/appsettings.Development.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/appsettings.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/publish/appsettings.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/publish/LystraApp.deps.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/publish/LystraApp.runtimeconfig.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/publish/LystraApp.staticwebassets.endpoints.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/publish/publish/appsettings.Development.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/publish/publish/appsettings.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.deps.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.runtimeconfig.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/publish/publish/LystraApp.staticwebassets.endpoints.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.endpoints.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/LystraApp.staticwebassets.runtime.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/LystraApp
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/LystraApp.deps.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/LystraApp.runtimeconfig.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/LystraApp.dll
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/bin/Debug/net8.0/LystraApp.pdb
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/LystraApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfoInputs.cache
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/LystraApp.AssemblyInfo.cs
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/LystraApp.csproj.CoreCompileInputs.cache
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/LystraApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cache
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/LystraApp.RazorAssemblyInfo.cs
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/rjimswa.dswa.cache.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/scopedcss/bundle/LystraApp.styles.css
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/scopedcss/projectbundle/LystraApp.bundle.scp.css
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/staticwebassets.build.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/staticwebassets.build.json.cache
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/staticwebassets.development.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/LystraApp.dll
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/refint/LystraApp.dll
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/LystraApp.pdb
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/LystraApp.genruntimeconfig.cache
+/Users/yasin/Desktop/LystraAppTaslak/LystraApp/obj/Debug/net8.0/ref/LystraApp.dll

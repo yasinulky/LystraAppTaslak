@@ -1,0 +1,8 @@
+footer.main-footer {
+    position: relative !important;
+    z-index: 10 !important;
+    display: block !important;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    visibility: visible !important;
+} 

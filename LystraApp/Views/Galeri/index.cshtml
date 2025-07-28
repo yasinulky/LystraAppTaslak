@@ -1,0 +1,41 @@
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/custom-galeri.css" />
+}
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/js/custom-galeri.js"></script>
+}
+<main>
+    <section class="gallery-slider-section">
+        <h1 style="font-size:2.5rem; font-weight:700; margin-bottom:2rem; letter-spacing:1px; text-shadow:0 2px 8px #000; margin-top:4.5rem;">Galeri</h1>
+        <div class="swiper gallerySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/images/all/1.jpg" alt="Galeri 1"></div>
+                <div class="swiper-slide"><img src="/images/all/2.jpg" alt="Galeri 2"></div>
+                <div class="swiper-slide"><img src="/images/all/3.jpg" alt="Galeri 3"></div>
+                <div class="swiper-slide"><img src="/images/all/4.jpg" alt="Galeri 4"></div>
+                <div class="swiper-slide"><img src="/images/all/5.jpg" alt="Galeri 5"></div>
+                <div class="swiper-slide"><img src="/images/all/6.jpg" alt="Galeri 6"></div>
+                <div class="swiper-slide"><img src="/images/all/7.jpg" alt="Galeri 7"></div>
+                <div class="swiper-slide"><img src="/images/all/8.jpg" alt="Galeri 8"></div>
+                <div class="swiper-slide"><img src="/images/all/9.jpg" alt="Galeri 9"></div>
+                <div class="swiper-slide"><img src="/images/all/10.jpg" alt="Galeri 10"></div>
+                <div class="swiper-slide"><img src="/images/all/11.jpg" alt="Galeri 11"></div>
+                <div class="swiper-slide"><img src="/images/all/12.jpg" alt="Galeri 12"></div>
+                <div class="swiper-slide"><img src="/images/all/13.jpg" alt="Galeri 13"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+</main>
+<!-- Modal for fullscreen image -->
+<div id="imgModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.95); justify-content:center; align-items:center; padding-top:60px; box-sizing:border-box;">
+    <span id="closeModal" style="position:absolute; top:30px; right:50px; color:white; font-size:60px; cursor:pointer; user-select:none;">&times;</span>
+    <img id="modalImage" src="" style="max-width:90vw; max-height:75vh; border:6px solid white; border-radius:18px; box-shadow:0 8px 32px 0 rgba(31,38,135,0.37);" />
+</div>

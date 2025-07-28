@@ -1,0 +1,452 @@
+﻿@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/home-custom.css" />
+    <link rel="stylesheet" href="/css/custom-home.css" />
+}
+@section Scripts {
+    <script src="/js/custom-home.js"></script>
+}
+<!-- Hero Slider Section -->
+<section class="hero-section" id="hero">
+    <div class="container-fluid">
+        <div class="row no-gutters g-0">
+            <!-- Slider Column -->
+            <div class="col-lg-9">
+                <div class="hero-slider-wrap">
+                    <div class="hero-slider full-height">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- Slide 1 -->
+                                <div class="swiper-slide">
+                                    <div class="hero-slide">
+                                        <div class="bg-wrap bg-parallax-wrap-gradien fs-wrapper">
+                                            <div class="bg" data-bg="images/all/1.jpg" data-swiper-parallax="10%"></div>
+                                            <div class="overlay overlay-bold"></div>
+                                        </div>
+                                        <div class="hero-slide-content">
+                                            <h1>Lystra Antik Kenti</h1>
+                                            <h3>Tarihte Yolculuk</h3>
+                                            <p>Roma ve Bizans dönemlerinin izlerini taşıyan Lystra Antik Kenti'ni keşfedin.</p>
+                                            <a href="#sec2" class="hero-btn">Daha Fazla Bilgi</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="swiper-slide">
+                                    <div class="hero-slide">
+                                        <div class="bg-wrap bg-parallax-wrap-gradien fs-wrapper">
+                                            <div class="bg" data-bg="images/all/2.jpg" data-swiper-parallax="10%"></div>
+                                            <div class="overlay overlay-bold"></div>
+                                        </div>
+                                        <div class="hero-slide-content">
+                                            <h1>Arkeolojik Keşifler</h1>
+                                            <h3>Gizli Hazineler</h3>
+                                            <p>Toprak altından çıkarılan eşsiz buluntular ve antik kalıntılar.</p>
+                                            <a href="#sec2" class="hero-btn">Galeriyi İncele</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="swiper-slide">
+                                    <div class="hero-slide">
+                                        <div class="bg-wrap bg-parallax-wrap-gradien fs-wrapper">
+                                            <div class="bg" data-bg="images/all/3.jpg" data-swiper-parallax="10%"></div>
+                                            <div class="overlay overlay-bold"></div>
+                                        </div>
+                                        <div class="hero-slide-content">
+                                            <h1>Kültürel Miras</h1>
+                                            <h3>Korunması Gereken Değerler</h3>
+                                            <p>Anadolu'nın zengin kültürel mirasının korunması için yürütülen çalışmalar.</p>
+                                            <a href="#sec2" class="hero-btn">Projelerimiz</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-controls">
+                        <div class="hero-button hero-button-prev"><i class="fa-solid fa-caret-left"></i></div>
+                        <div class="hero-button hero-button-next"><i class="fa-solid fa-caret-right"></i></div>
+                    </div>
+                    <div class="hero-pagination">
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Randevu Column -->
+            <div class="col-lg-3">
+                <div class="appointment-section">
+                    <div class="appointment-container">
+                        <div class="appointment-header">
+                            <div class="header-icon">
+                                <i class="fa-solid fa-calendar-check"></i>
+                            </div>
+                            <h3>Ziyaret Randevusu</h3>
+                            <p>Lystra Antik Kenti'ni keşfetmek için randevu alın</p>
+                        </div>
+                        <form class="modern-appointment-form" id="appointmentForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="visitDate">Ziyaret Tarihi</label>
+                                    <div class="input-wrapper">
+                                        <input type="date" id="visitDate" name="visitDate" required>
+                                        <i class="fa-regular fa-calendar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="fullName">Ad ve Soyad</label>
+                                    <div class="input-wrapper">
+                                        <input type="text" id="fullName" name="fullName" placeholder="Adınızı girin" required>
+                                        <i class="fa-regular fa-user"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group half-width">
+                                    <label for="phone">Telefon</label>
+                                    <div class="input-wrapper">
+                                        <input type="tel" id="phone" name="phone" placeholder="0555 123 45 67" required>
+                                        <i class="fa-regular fa-phone"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group half-width">
+                                    <label for="visitorCount">Kişi Sayısı</label>
+                                    <div class="input-wrapper">
+                                        <select id="visitorCount" name="visitorCount" required>
+                                            <option value="">Seçin</option>
+                                            <option value="1">1 Kişi</option>
+                                            <option value="2">2 Kişi</option>
+                                            <option value="3">3 Kişi</option>
+                                            <option value="4">4 Kişi</option>
+                                            <option value="5-10">5-10 Kişi</option>
+                                            <option value="grup">Grup (10+ kişi)</option>
+                                        </select>
+                                        <i class="fa-regular fa-users"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">E-posta Adresi</label>
+                                    <div class="input-wrapper">
+                                        <input type="email" id="email" name="email" placeholder="ornek@email.com" required>
+                                        <i class="fa-regular fa-envelope"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="notes">Özel İstekler (İsteğe bağlı)</label>
+                                    <div class="input-wrapper">
+                                        <textarea id="notes" name="notes" placeholder="Özel isteklerinizi buraya yazabilirsiniz..." rows="3"></textarea>
+                                        <i class="fa-regular fa-message"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <span class="btn-text">Randevu Oluştur</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </form>
+                        <div class="success-message" id="successMessage">
+                            <div class="success-icon">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <h4>Randevu Talebiniz Alındı!</h4>
+                            <p>En kısa sürede size geri dönüş yapacağız.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="breadcrumbs-wrap">
+    <div class="container">
+        <a href="#">Anasayfa</a><span>Lystra Antik Kenti</span>
+    </div>
+</div>
+<!--breadcrumbs-wrap end  -->
+<!-- section   -->
+<div class="content-section" id="sec2">
+    <div class="section-dec"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-title text-align_left" style="margin-top: 50px;">
+                    <h4>Konya'nın Gizli Hazinesi</h4>
+                    <h2>Lystra Antik Kenti Hakkında</h2>
+                </div>
+                <div class="text-block tb-sin">
+                    <p class="has-drop-cap">
+                        Lystra Antik Kenti, Konya'nın Hatunsaray ilçesinde yer alan ve tarihi Roma dönemine kadar uzanan
+                        önemli bir arkeolojik alandır. Antik dönemde Lykaonia bölgesinin önemli şehirlerinden biri olan
+                        Lystra, Hıristiyanlık tarihinde de özel bir yere sahiptir. Aziz Pavlus'un misyoner yolculuklarında
+                        ziyaret ettiği şehirler arasında yer alan Lystra, hem Roma hem de Bizans döneminden kalıntılar barındırır.
+                    </p>
+                    <p>
+                        Günümüzde sürdürülen arkeolojik kazılar sayesinde antik kentin pek çok sırrı gün yüzüne çıkarılmaktadır.
+                        Bulunan mozaikler, sikke koleksiyonları, seramik parçaları ve mimari kalıntılar, bölgenin zengin
+                        kültürel mirasını gözler önüne sermektedir. Proje kapsamında kurulan ziyaretçi merkezi ile bu
+                        eşsiz tarhi miras gelecek nesillere aktarılmaktadır.
+                    </p>
+                    <a asp-controller="Hakkimizda" asp-action="Index" class="btn fl-btn ">Daha Fazla Bilgi</a>
+                    <div class="dc_dec-item_left"><span></span></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="hero-image-collge-wrap">
+                    <div class="single-dec_img">
+                        <img src="images/all/11.jpg" alt="" class="respimg">
+                    </div>
+                    <div class="hero_images-collage-item"
+                         style="width: 25%; bottom:  25px; z-index: 15; left: -70px;">
+                        <img src="images/all/12.jpg" class="respimg" alt="">
+                    </div>
+                    <div class="hero_images-collage-item"
+                         style="width: 45%; top: -5%; z-index: 11; right: -120px;">
+                        <img src="images/all/7.jpg" class="respimg" alt="">
+                    </div>
+                    <div class="dc_dec-item_right"><span></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="sc-dec" style="left: -220px; bottom: -100px;"></div>
+    </div>
+    <div class="content-dec2 fs-wrapper"></div>
+    <div class="content-dec"><span></span></div>
+</div>
+<!-- section end  -->
+<!-- section   -->
+<div class="content-section dark-bg no-padding column-section hidden-section" data-scrollax-parent="true">
+    <div class="column-wrap-bg right-wrap">
+        <div class="par-elem">
+            <div class="bg" data-bg="images/bg/23.jpg" data-scrollax="properties: { translateY: '20%' }">
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="column-wrap-bg-text">
+            <h3>LYSTRA ZİYARETÇİ MERKEZİ</h3>
+            <h4>Lystra Antik Kenti Gün Yüzüne Çıkıyor</h4>
+            <a href="#" class="hero-rsto-link" onclick="scrollToAppointment()">ZİYARETÇİ MERKEZİNİ KEŞFET</a>
+        </div>
+    </div>
+    <div class="column-section-wrap left-column-section">
+        <div class="container">
+            <div class="column-text">
+                <div class="section-title">
+                    <h4>Son Etkinliklerimiz</h4>
+                    <h2>Lystra'da Etkinlikler & Haberler</h2>
+                    <div class="section-separator sect_se_transparent">
+                        <span>
+                            
+                        </span>
+                    </div>
+                </div>
+                <!-- events-carousel-wrap -->
+                <div class="events-carousel-wrap">
+                    <div class="events-carousel">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- swiper-slide -->
+                                <div class="swiper-slide">
+                                    <div class="event-carousel-item">
+                                        <h4><a asp-controller="Haberler" asp-action="Index">Lystra Tarihi Keşif Günü</a></h4>
+                                        <span class="event-date">15 Ağustos 2025</span>
+                                        <p>
+                                            Lystra'nın antik kalıntılarını keşfetmek için rehberli turlar ve kültürel etkinlikler. Detaylar için bize katılın.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- swiper-slide end -->
+                                <!-- swiper-slide -->
+                                <div class="swiper-slide">
+                                    <div class="event-carousel-item">
+                                        <h4><a asp-controller="Haberler" asp-action="Index">Lystra Arkeoloji Sempozyumu</a></h4>
+                                        <span class="event-date">20 Eylül 2025</span>
+                                        <p>
+                                            Lystra'nın Roma ve Bizans dönemine ait buluntularını inceleyen bir akademik etkinlik.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- swiper-slide end -->
+                                <!-- swiper-slide -->
+                                <div class="swiper-slide">
+                                    <div class="event-carousel-item">
+                                        <h4><a asp-controller="Haberler" asp-action="Index">Batı Dünyasında Lystra İmgesi</a></h4>
+                                        <span class="event-date">21-27 Temmuz 2025</span>
+                                        <p>
+                                            Tantavi Kültür ve Sanat Merkezi'nde, Lystra'nın dini ve kültürel mirasını tanıtan özel bir sergi.
+                                            Ziyaret saatleri: 10:00-18:00.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- swiper-slide end -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ec-button ec-button-prev"><i class="fas fa-angle-left"></i></div>
+                    <div class="ec-button ec-button-next"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <!-- events-carousel-wrap end -->
+                <a asp-controller="Haberler" asp-action="Index" class="stg_link">HABERLERİ GÖRÜNTÜLE</a>
+            </div>
+        </div>
+        <div class="map-dec2"></div>
+        <div class="footer-separator fs_sin"><span></span></div>
+    </div>
+</div>
+<!-- section end  -->
+<!-- Virtual Tour Section -->
+<section class="virtual-tour-section" id="virtual-tour">
+    <div class="section-dec"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center">
+                    <h4>İnteraktif Keşif</h4>
+                    <h2>Lystra Sanal Tur</h2>
+                    <div class="section-separator">
+                        <span></span>
+                    </div>
+                    <p class="tour-description">
+                        Lystra Antik Kenti'ni 3D teknolojisi ile keşfedin. 360 derece interaktif gezinti ile 
+                        antik kalıntıları yakından inceleyin ve tarihe yolculuk yapın.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- Model Controls Panel -->
+           
+            
+            <!-- Cesium Viewer -->
+            <div class="col-lg-12">
+                <div class="cesium-viewer-container">
+                    <div id="cesiumContainer" class="cesium-viewer"></div>
+                    
+                    <!-- Loading Overlay -->
+                    <div class="loading-overlay active" id="loadingOverlay">
+                        <div class="loading-content">
+                            <div class="loader-3d">
+                                <div class="cube">
+                                    <div class="face front"></div>
+                                    <div class="face back"></div>
+                                    <div class="face right"></div>
+                                    <div class="face left"></div>
+                                    <div class="face top"></div>
+                                    <div class="face bottom"></div>
+                                </div>
+                            </div>
+                            <h4 id="loadingTitle">Sanal Tur Hazırlanıyor...</h4>
+                            <p id="loadingText">Model yükleniyor, lütfen bekleyiniz</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="loadingProgress"></div>
+                            </div>
+                            <div class="loading-steps" id="loadingSteps">
+                                <div class="step active" id="step1">
+                                    <i class="fa-solid fa-globe"></i>
+                                    <span>Harita yükleniyor</span>
+                                </div>
+                                <div class="step" id="step2">
+                                    <i class="fa-solid fa-cube"></i>
+                                    <span>3D motor başlatılıyor</span>
+                                </div>
+                                <div class="step" id="step3">
+                                    <i class="fa-solid fa-landmark"></i>
+                                    <span>Modeller hazırlanıyor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation Help -->
+                    <div class="navigation-help" id="navigationHelp">
+                        <div class="help-content">
+                            <h6><i class="fa-solid fa-mouse"></i> Navigasyon Kontrolleri</h6>
+                            <div class="help-items">
+                                <div class="help-item">
+                                    <span class="help-icon"><i class="fa-solid fa-hand-point-up"></i></span>
+                                    <span>Sol tık + sürükle: Döndür</span>
+                                </div>
+                                <div class="help-item">
+                                    <span class="help-icon"><i class="fa-solid fa-hand-scissors"></i></span>
+                                    <span>Orta tık + sürükle: Kaydır</span>
+                                </div>
+                                <div class="help-item">
+                                    <span class="help-icon"><i class="fa-solid fa-arrows-up-down"></i></span>
+                                    <span>Scroll: Yakınlaştır/Uzaklaştır</span>
+                                </div>
+                                <div class="help-item">
+                                    <span class="help-icon"><i class="fa-solid fa-mobile-screen"></i></span>
+                                    <span>Dokunmatik: İki parmak gesture</span>
+                                </div>
+                            </div>
+                            <button class="close-help" id="closeHelp">
+                                <i class="fa-solid fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Fullscreen Button -->
+                    <button class="fullscreen-btn" id="fullscreenBtn" data-tooltip="Tam Ekran">
+                        <i class="fa-solid fa-expand"></i>
+                    </button>
+                    
+                    <!-- Screenshot Button -->
+                    <button class="screenshot-btn" id="screenshotBtn" data-tooltip="Ekran Görüntüsü Al">
+                        <i class="fa-solid fa-camera"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Model Information Cards -->
+        <div class="row model-info-cards" style="margin-top: 40px;">
+            <div class="col-lg-3 col-md-6">
+                <div class="info-card" data-model="city">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-city"></i>
+                    </div>
+                    <h5>Antik Şehir</h5>
+                    <p>Roma dönemine ait şehir planlaması ve yapı kalıntıları</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="info-card" data-model="temple">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-landmark"></i>
+                    </div>
+                    <h5>Tapınak Kalıntıları</h5>
+                    <p>Roma tanrılarına adanmış tapınak kompleksi</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="info-card" data-model="theater">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-masks-theater"></i>
+                    </div>
+                    <h5>Antik Tiyatro</h5>
+                    <p>4000 kişilik antik dönem tiyatro kompleksi</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="info-card" data-model="agora">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <h5>Agora Alanı</h5>
+                    <p>Ticaret ve sosyal yaşamın merkezi agora</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-dec2 fs-wrapper"></div>
+</section>
+<!-- Virtual Tour Section End -->
+<div class="content-dec"><span></span></div>

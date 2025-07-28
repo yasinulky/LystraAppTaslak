@@ -1,0 +1,48 @@
+﻿
+<header class="main-header" style="position:absolute; top:0; left:0; width:100vw; right:0; background:#fff; z-index:1000;">
+    <div style="max-width:1440px; margin:0 auto;">
+            <div class="nav-holder-wrap init-fix-header fl-wrap">
+                <a asp-controller="Home" asp-action="Index" class="logo-holder"><img src="/images/lystralogo.png" alt="Lystra Logo" style="height:48px;"></a>
+                <!--  navigation -->
+                <div class="nav-holder main-menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a asp-action="Index" asp-controller="Home" class="act-link">Anasayfa <i class="fas fa-caret-down"></i></a>
+                                <!--second level -->
+                                <ul>
+                                    <li><a asp-action="Index" asp-controller="Home">Ana sayfa</a></li>
+                                    <li><a asp-action="Index" asp-controller="Home">Ziyaretçi merkezi</a></li>
+                                    <li><a asp-action="Index" asp-controller="Home">Sanal tur</a></li>
+                                </ul>
+                                <!--second level end-->
+                            </li>
+                            <li><a asp-action="Index" asp-controller="Hakkimizda">Hakkımızda</a></li>
+                            <li>
+                                <a href="#">Ekibimiz<i class="fas fa-caret-down"></i></a>
+                                <!--second level -->
+                                <ul>
+                                    <li><a asp-action="Index" asp-controller="Ekibimiz">2024 Yılı Ekibimiz</a></li>
+                                    <li><a asp-action="Index" asp-controller="Ekibimiz">2025 Yılı Ekibimiz</a></li>
+                                </ul>
+                                <!--second level end-->
+                            </li>
+                            <li><a asp-action="Index" asp-controller="Galeri">Galeri</a></li>
+                            <li><a asp-action="Index" asp-controller="Projelerimiz">Projelerimiz</a></li>
+                            <li><a asp-action="Index" asp-controller="Haberler">Haberler</a></li>
+                            <li><a asp-action="Index" asp-controller="Yayinlarimiz">Yayınlarımız</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- navigation  end -->
+                <!-- nav-button-wrap-->
+                <div class="nav-button-wrap">
+                    <div class="nav-button">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+                <!-- nav-button-wrap end-->
+            
+        </div>
+    </div>
+</header>

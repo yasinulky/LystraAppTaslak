@@ -1,0 +1,84 @@
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/custom-ekibimiz.css" />
+}
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/js/custom-ekibimiz.js"></script>
+}
+<!-- Header kaldırıldı, layout üzerinden geliyor -->
+<section class="ekip-hero-ultra">
+    <h1>Ekibimiz</h1>
+    <p>Alanında uzman, tutkulu ve vizyoner ekibimizle tanışın.</p>
+</section>
+<main>
+    <section class="ekip-slider-section-ultra">
+        <h2 class="ekip-title-ultra">Kadro</h2>
+        <div class="swiper ekipSwiperUltra">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide ekip-card-ultra" data-member='{"name":"Ayşe Yılmaz","role":"Kurucu Ortak","image":"/images/team/1.jpg","bio":"ODTÜ Arkeoloji mezunu. 15 yıldır Lystra kazı başkanlığı yapıyor. Arkeoloji ve liderlikte uzman.","email":"ayse@lystra.com","linkedin":"https://linkedin.com/in/ayseyilmaz","twitter":"https://twitter.com/ayseyilmaz"}'>
+                    <div class="ekip-avatar-ultra">
+                        <img src="/images/team/1.jpg" alt="Ayşe Yılmaz">
+                    </div>
+                    <div class="ekip-info-ultra">
+                        <div class="ekip-isim-ultra">Ayşe Yılmaz</div>
+                        <div class="ekip-rol-ultra">Kurucu Ortak</div>
+                        <div class="ekip-social-ultra">
+                            <a href="mailto:ayse@lystra.com" title="E-posta"><i class="fa fa-envelope"></i></a>
+                            <a href="https://linkedin.com/in/ayseyilmaz" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://twitter.com/ayseyilmaz" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <button class="ekip-detail-btn-ultra" onclick="openMemberModalUltra(this)">Detaylar</button>
+                </div>
+                <div class="swiper-slide ekip-card-ultra" data-member='{"name":"Mehmet Demir","role":"Proje Yöneticisi","image":"/images/team/2.jpg","bio":"İTÜ İnşaat Mühendisliği mezunu. Proje yönetimi ve saha koordinasyonu.","email":"mehmet@lystra.com","linkedin":"https://linkedin.com/in/mehmetdemir"}'>
+                    <div class="ekip-avatar-ultra">
+                        <img src="/images/team/2.jpg" alt="Mehmet Demir">
+                    </div>
+                    <div class="ekip-info-ultra">
+                        <div class="ekip-isim-ultra">Mehmet Demir</div>
+                        <div class="ekip-rol-ultra">Proje Yöneticisi</div>
+                        <div class="ekip-social-ultra">
+                            <a href="mailto:mehmet@lystra.com" title="E-posta"><i class="fa fa-envelope"></i></a>
+                            <a href="https://linkedin.com/in/mehmetdemir" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <button class="ekip-detail-btn-ultra" onclick="openMemberModalUltra(this)">Detaylar</button>
+                </div>
+                <div class="swiper-slide ekip-card-ultra" data-member='{"name":"Zeynep Kaya","role":"Tasarımcı","image":"/images/team/3.jpg","bio":"Bilkent Grafik Tasarım mezunu. Dijital arayüz ve görsel iletişim sorumlusu.","email":"zeynep@lystra.com","linkedin":"https://linkedin.com/in/zeynepkaya"}'>
+                    <div class="ekip-avatar-ultra">
+                        <img src="/images/team/3.jpg" alt="Zeynep Kaya">
+                    </div>
+                    <div class="ekip-info-ultra">
+                        <div class="ekip-isim-ultra">Zeynep Kaya</div>
+                        <div class="ekip-rol-ultra">Tasarımcı</div>
+                        <div class="ekip-social-ultra">
+                            <a href="mailto:zeynep@lystra.com" title="E-posta"><i class="fa fa-envelope"></i></a>
+                            <a href="https://linkedin.com/in/zeynepkaya" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <button class="ekip-detail-btn-ultra" onclick="openMemberModalUltra(this)">Detaylar</button>
+                </div>
+            </div>
+            <div class="swiper-pagination ekip-pagination-ultra"></div>
+            <div class="swiper-button-next ekip-next-ultra"></div>
+            <div class="swiper-button-prev ekip-prev-ultra"></div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal-ultra" id="memberModalUltra">
+        <div class="modal-content-ultra">
+            <span class="modal-close-ultra" onclick="closeMemberModalUltra()">&times;</span>
+            <div class="modal-avatar-ultra">
+                <img id="memberModalImageUltra" src="" alt="">
+            </div>
+            <div class="modal-title-ultra" id="memberModalNameUltra"></div>
+            <div class="modal-role-ultra" id="memberModalRoleUltra"></div>
+            <div class="modal-bio-ultra" id="memberModalBioUltra"></div>
+            <div class="modal-social-ultra" id="memberModalSocialUltra"></div>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,193 @@
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/custom-yayinlarimiz.css" />
+}
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.yayinlarSwiper', {
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 3,
+            spaceBetween: 24,
+            grabCursor: true,
+            centeredSlides: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1.1,
+                },
+                600: {
+                    slidesPerView: 1.5,
+                },
+                900: {
+                    slidesPerView: 2.2,
+                },
+                1200: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        function openModal(button) {
+            const slide = button.closest('.swiper-slide');
+            const publicationData = JSON.parse(slide.dataset.publication);
+            const modal = document.getElementById('publicationModal');
+            document.getElementById('modalImage').src = slide.querySelector('.yayin-gorsel').src;
+            document.getElementById('modalTitle').textContent = publicationData.title;
+            document.getElementById('modalDescription').textContent = publicationData.description;
+            const metaDiv = document.getElementById('modalMeta');
+            metaDiv.innerHTML = `
+                <div class="meta-item"><strong>Kategori:</strong> ${publicationData.category}</div>
+                <div class="meta-item"><strong>Tarih:</strong> ${publicationData.date}</div>
+                <div class="meta-item"><strong>Yazarlar:</strong> ${publicationData.authors}</div>
+                <div class="meta-item"><strong>Sayfa:</strong> ${publicationData.pages}</div>
+                <div class="meta-item"><strong>Dil:</strong> ${publicationData.language}</div>
+            `;
+            const detailsDiv = document.getElementById('modalDetails');
+            let detailsHTML = '<h4>İçindekiler</h4><ul>';
+            publicationData.contents.forEach(content => {
+                detailsHTML += `<li>${content}</li>`;
+            });
+            detailsHTML += '</ul>';
+            if (publicationData.isbn) {
+                detailsHTML += `<h4>Yayın Bilgileri</h4><ul>`;
+                detailsHTML += `<li><strong>ISBN:</strong> ${publicationData.isbn}</li>`;
+                detailsHTML += `<li><strong>Yayınevi:</strong> ${publicationData.publisher}</li>`;
+                detailsHTML += `</ul>`;
+            }
+            if (publicationData.doi) {
+                detailsHTML += `<h4>Akademik Bilgiler</h4><ul>`;
+                detailsHTML += `<li><strong>DOI:</strong> ${publicationData.doi}</li>`;
+                if (publicationData.issn) {
+                    detailsHTML += `<li><strong>ISSN:</strong> ${publicationData.issn}</li>`;
+                }
+                if (publicationData.journal) {
+                    detailsHTML += `<li><strong>Dergi:</strong> ${publicationData.journal}</li>`;
+                    detailsHTML += `<li><strong>Cilt/Sayı:</strong> ${publicationData.volume}</li>`;
+                }
+                detailsHTML += `</ul>`;
+            }
+            if (publicationData.report_no) {
+                detailsHTML += `<h4>Rapor Bilgileri</h4><ul>`;
+                detailsHTML += `<li><strong>Rapor No:</strong> ${publicationData.report_no}</li>`;
+                detailsHTML += `<li><strong>Kurum:</strong> ${publicationData.institution}</li>`;
+                detailsHTML += `</ul>`;
+            }
+            detailsDiv.innerHTML = detailsHTML;
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal() {
+            const modal = document.getElementById('publicationModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        document.getElementById('publicationModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+}
+<!-- Hero Section -->
+<section class="publications-hero">
+    <div>
+        <h1>Yayınlarımız</h1>
+        <p>Lystra Antik Kenti kazı çalışmaları ve araştırmalarından doğan akademik yayınlar</p>
+    </div>
+</section>
+<main>
+    <section class="yayinlar-slider-section">
+        <h2 style="font-size:2.5rem; font-weight:700; margin-bottom:3rem; letter-spacing:1px; text-shadow:0 2px 8px #000; color: #D4A574;">Akademik Yayınlarımız</h2>
+        <div class="swiper yayinlarSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" data-publication='{"title":"Lystra Arkeoloji Dergisi - Sayı 1","category":"Dergi","date":"Bahar 2024","authors":"Prof. Dr. Mehmet KONYA, Doç. Dr. Ayşe DEMİR","pages":"120","language":"Türkçe","description":"Lystra Antik Kenti kazı çalışmalarının ilk yılına ait bulguların detaylı analizi ve değerlendirmesi. Roma dönemine ait seramik parçaları, sikke koleksiyonu ve mimari kalıntıların incelenmesi.","contents":["Lystra Antik Kentinin Tarihçesi","Roma Dönemi Seramik Buluntuları","Sikke Koleksiyonu Analizi","Mimari Kalıntılar ve Yapısal Özellikler","Kazı Metodolojisi ve Teknikler"],"doi":"10.1234/lystra.2024.01","issn":"2345-6789"}'>
+                        <img class="yayin-gorsel" src="/images/all/1.jpg" alt="Yayın 1">
+                        <div class="yayin-kategori">Dergi</div>
+                        <div class="yayin-tarih">2024</div>
+                        <div class="yayin-baslik">Lystra Arkeoloji Dergisi - Sayı 1</div>
+                        <button class="detail-btn" onclick="openModal(this)">Detaylar</button>
+                    </div>
+                    
+                    <div class="swiper-slide" data-publication='{"title":"Anadolu\'nun Kayıp Şehri: Lystra","category":"Kitap","date":"Ekim 2024","authors":"Dr. Ömer KAYA, Arş. Gör. Elif YILMAZ","pages":"280","language":"Türkçe/İngilizce","description":"Lystra Antik Kenti\'nin kapsamlı tarihî analizi. Antik kaynaklardan modern kazılara kadar Lystra\'nın hikayesi.","contents":["Antik Kaynaklarda Lystra","Coğrafi Konum ve Stratejik Önemi","Roma Kolonisi Döneminde Lystra","Hıristiyanlık Tarihi ve Aziz Pavlus","Bizans Dönemi Lystra","Modern Kazılar ve Bulgular","Kültürel Miras ve Koruma"],"isbn":"978-605-123-456-7","publisher":"Lystra Yayınları"}'>
+                        <img class="yayin-gorsel" src="/images/all/2.jpg" alt="Yayın 2">
+                        <div class="yayin-kategori">Kitap</div>
+                        <div class="yayin-tarih">2024</div>
+                        <div class="yayin-baslik">Anadolu'nun Kayıp Şehri: Lystra</div>
+                        <button class="detail-btn" onclick="openModal(this)">Detaylar</button>
+                    </div>
+                    
+                    <div class="swiper-slide" data-publication='{"title":"Lystra Mozaikleri: Sanat ve Teknik","category":"Makale","date":"Haziran 2024","authors":"Doç. Dr. Ayşe DEMİR","pages":"45","language":"İngilizce","description":"Lystra Antik Kenti\'nde bulunan mozaiklerin sanatsal ve teknik özelliklerinin detaylı incelemesi.","contents":["Mozaik Sanatının Lystra\'daki Gelişimi","Geometrik Desenler ve Anlamları","Figüratif Kompozisyonlar","Teknik Analiz ve Malzeme İncelemesi","Koruma ve Restorasyon Çalışmaları"],"journal":"Journal of Ancient Art","volume":"Vol. 15, No. 2","doi":"10.5678/jaa.2024.15.2"}'>
+                        <img class="yayin-gorsel" src="/images/all/3.jpg" alt="Yayın 3">
+                        <div class="yayin-kategori">Makale</div>
+                        <div class="yayin-tarih">2024</div>
+                        <div class="yayin-baslik">Lystra Mozaikleri: Sanat ve Teknik</div>
+                        <button class="detail-btn" onclick="openModal(this)">Detaylar</button>
+                    </div>
+                    
+                    <div class="swiper-slide" data-publication='{"title":"Lystra Fotoğraf Albümü","category":"Fotoğraf Kitabı","date":"Aralık 2023","authors":"Kazı Ekibi","pages":"150","language":"Türkçe/İngilizce","description":"Lystra Antik Kenti kazı çalışmalarının görsel belgeleri. Buluntular, kazı süreci ve antik kalıntıların profesyonel fotoğrafları.","contents":["Kazı Öncesi Genel Görünüm","Kazı Süreci Belgeleri","Arkeolojik Buluntular","Mozaik ve Fresk Detayları","Mimari Kalıntılar","Ekip Çalışmaları"],"isbn":"978-605-123-457-4","publisher":"Lystra Yayınları"}'>
+                        <img class="yayin-gorsel" src="/images/all/4.jpg" alt="Yayın 4">
+                        <div class="yayin-kategori">Fotoğraf Kitabı</div>
+                        <div class="yayin-tarih">2023</div>
+                        <div class="yayin-baslik">Lystra Fotoğraf Albümü</div>
+                        <button class="detail-btn" onclick="openModal(this)">Detaylar</button>
+                    </div>
+                    
+                    <div class="swiper-slide" data-publication='{"title":"Lystra Sikke Kataloğu","category":"Katalog","date":"Mart 2024","authors":"Prof. Dr. Mehmet KONYA, Dr. Fatma ÖZTÜRK","pages":"95","language":"Türkçe/İngilizce","description":"Lystra kazılarında bulunan Roma ve Bizans dönemi sikkelerinin detaylı kataloğu ve analizi.","contents":["Roma İmparatorluk Sikkeleri","Yerel Sikke Basımları","Bizans Dönemi Buluntular","İkonografik Analiz","Ekonomik ve Ticari Çıkarımlar","Koruma ve Arşivleme"],"isbn":"978-605-123-458-1","publisher":"Lystra Yayınları"}'>
+                        <img class="yayin-gorsel" src="/images/all/5.jpg" alt="Yayın 5">
+                        <div class="yayin-kategori">Katalog</div>
+                        <div class="yayin-tarih">2024</div>
+                        <div class="yayin-baslik">Lystra Sikke Kataloğu</div>
+                        <button class="detail-btn" onclick="openModal(this)">Detaylar</button>
+                    </div>
+                    
+                    <div class="swiper-slide" data-publication='{"title":"Lystra Kazı Raporları 2018-2023","category":"Rapor","date":"Ocak 2024","authors":"Kazı Başkanlığı","pages":"320","language":"Türkçe","description":"2018-2023 yılları arasında gerçekleştirilen kazı çalışmalarının detaylı raporları ve bilimsel bulgular.","contents":["2018 Yılı Kazı Raporu","2019 Yılı Bulguları","2020 Yılı Çalışmaları","2021 Yılı Keşifleri","2022 Yılı Analizleri","2023 Yılı Sonuçları","Genel Değerlendirme ve Öneriler"],"report_no":"LYS-2024-001","institution":"Kültür ve Turizm Bakanlığı"}'>
+                        <img class="yayin-gorsel" src="/images/all/6.jpg" alt="Yayın 6">
+                        <div class="yayin-kategori">Rapor</div>
+                        <div class="yayin-tarih">2024</div>
+                        <div class="yayin-baslik">Lystra Kazı Raporları 2018-2023</div>
+                        <button class="detail-btn" onclick="openModal(this)">Detaylar</button>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal" id="publicationModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <div style="text-align: center;">
+                <img class="modal-image" id="modalImage" src="" alt="">
+            </div>
+            <h2 class="modal-title" id="modalTitle"></h2>
+            <div class="modal-meta" id="modalMeta"></div>
+            <p class="modal-description" id="modalDescription"></p>
+            <div class="modal-details" id="modalDetails"></div>
+            <div style="text-align: center;">
+                <a href="#" class="download-btn" id="downloadBtn">PDF İndir</a>
+            </div>
+        </div>
+    </div>

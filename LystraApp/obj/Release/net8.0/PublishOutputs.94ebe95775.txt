@@ -1,0 +1,7 @@
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Release/net8.0/publish/LystraApp
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Release/net8.0/publish/appsettings.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Release/net8.0/publish/LystraApp.dll
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Release/net8.0/publish/LystraApp.deps.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Release/net8.0/publish/LystraApp.runtimeconfig.json
+/Users/aliemrecelik/Desktop/LystraApp/LystraApp/bin/Release/net8.0/publish/LystraApp.pdb

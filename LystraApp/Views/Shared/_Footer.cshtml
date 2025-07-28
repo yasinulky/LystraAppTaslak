@@ -1,0 +1,114 @@
+            <footer class="main-footer">
+                <div class="footer-inner">
+                    <div class="container">
+                        <!-- footer-widget-wrap -->
+                        <div class="footer-widget-wrap">
+                            <div class="footer-separator-wrap">
+                                <div class="footer-separator"><span></span></div>
+                            </div>
+                            <div class="row">
+                                <!-- footer-widget -->
+                                <div class="col-lg-3">
+                                    <div class="footer-widget">
+                                        <div class="footer-widget-title">Hakkımızda</div>
+                                        <div class="footer-widget-content">
+                                            <p>Konya'nın Hatunsaray ilçesinde bulunan bu eşsiz antik kent, binlerce yıllık tarihi gün yüzüne çıkarıyor </p>                                                  	
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- footer-widget  end-->
+                                <!-- footer-widget -->
+                                <div class="col-lg-3">
+                                    <div class="footer-widget">
+                                        <div class="footer-widget-title">İletişim Bilgileri</div>
+                                        <div class="footer-widget-content">
+                                            <div class="footer-contacts footer-box">
+                                                <ul>
+                                                    <li><span>Telefon:</span><a href="#">+905111111111</a> , <a href="#">+905111111111</a></li>
+                                                    <li><span>Mail:</span><a href="#">lystraantik@gmail.com</a></li>
+                                                    <li><span>Konum: </span><a href="#">Konya Meram</a></li>
+                                                </ul>
+                                            </div>                                               	
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- footer-widget  end-->
+                                <!-- footer-widget -->
+                                <!-- footer-widget  end-->								
+                                <!-- footer-widget -->
+                                <div class="col-lg-4">
+                                    <div class="footer-widget">
+                                        <div class="footer-widget-title" style="text-align:center; width:100%; font-size:2em; font-weight:700; margin-bottom:16px; letter-spacing:1px; color:var(--main-color);">Konum</div>
+                                        <div class="footer-map-address-wrap" style="background:rgba(255,255,255,0.97); border-radius:16px; box-shadow:0 4px 16px 0 rgba(31,38,135,0.10); padding:12px 10px; margin-top:0; display:flex; justify-content:center; align-items:center;">
+                                            <div id="footerMap" style="width:100%; max-width:320px; height:120px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.08); cursor:pointer;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- footer-widget  end-->
+                            </div>
+                        </div>
+                        <!-- footer-widget-wrap end-->					
+                    </div>
+                </div>
+                
+                <div class="footer-bottom" style="background:transparent; border:none; padding:0; margin-top:32px;">
+                    <div class="container d-flex flex-row align-items-center justify-content-center" style="padding:0; gap:32px; min-height:80px;">
+                        <img src="/images/lystralogo.png" alt="Lystra Logo" style="height:60px; max-width:180px; display:block; filter: drop-shadow(0 4px 16px #0004); margin-right:24px;">
+                        <div class="copyright" style="font-size:1.15em; color:#bbb; letter-spacing:0.5px; text-align:left; font-weight:600;">©️ LYSTRA 2025. TÜM HAKLARI SAKLIDIR.</div>
+                    </div>
+                </div>
+            </footer>
+            <!--footer end-->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script>
+// Footer sabit konum haritası ve modal büyütme
+const lystraCoords = [37.8715, 32.4846];
+setTimeout(function() {
+    if (document.getElementById('footerMap')) {
+        let footerMap = L.map('footerMap', { scrollWheelZoom: false, dragging: false, zoomControl: false, doubleClickZoom: false, boxZoom: false, keyboard: false, tap: false, touchZoom: false }).setView(lystraCoords, 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '©️ OpenStreetMap'
+        }).addTo(footerMap);
+        let footerMarker = L.marker(lystraCoords).addTo(footerMap);
+        footerMarker.bindPopup('Lystra Antik Kenti').openPopup();
+        // Modal açma
+        document.getElementById('footerMap').onclick = function() {
+            document.getElementById('footerMapModal').style.display = 'flex';
+            setTimeout(function() {
+                if (!window.footerMapBigInstance) {
+                    window.footerMapBigInstance = L.map('footerMapBig').setView(lystraCoords, 13);
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        maxZoom: 19,
+                        attribution: '©️ OpenStreetMap'
+                    }).addTo(window.footerMapBigInstance);
+                    let markerLystra = L.marker(lystraCoords).addTo(window.footerMapBigInstance);
+                    markerLystra.bindPopup('Lystra Antik Kenti').openPopup();
+                } else {
+                    window.footerMapBigInstance.invalidateSize();
+                    window.footerMapBigInstance.setView(lystraCoords, 13);
+                }
+                // Kullanıcı konumu
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(function(pos) {
+                        const userCoords = [pos.coords.latitude, pos.coords.longitude];
+                        if (window.footerUserMarker) {
+                            window.footerMapBigInstance.removeLayer(window.footerUserMarker);
+                        }
+                        window.footerUserMarker = L.marker(userCoords, {icon: L.icon({iconUrl: 'https://cdn-icons-png.flaticon.com/512/64/64113.png', iconSize: [32,32], iconAnchor: [16,32]})}).addTo(window.footerMapBigInstance);
+                        window.footerUserMarker.bindPopup('Siz').openPopup();
+                        window.footerMapBigInstance.fitBounds([lystraCoords, userCoords], {padding: [40,40]});
+                    });
+                }
+            }, 200);
+        };
+        document.getElementById('closeFooterMapModal').onclick = function() {
+            document.getElementById('footerMapModal').style.display = 'none';
+        };
+        document.getElementById('footerMapModal').onclick = function(e) {
+            if (e.target === this) document.getElementById('footerMapModal').style.display = 'none';
+        };
+    }
+}, 500);
+</script>

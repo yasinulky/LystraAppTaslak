@@ -1,0 +1,43 @@
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/custom-haberler.css" />
+}
+@section Scripts {
+    <script src="/js/custom-haberler.js"></script>
+}
+<section class="news-hero">
+    <div>
+        <h1>Haberler</h1>
+        <p>Lystra Antik Kenti ile ilgili en güncel haberler, gelişmeler ve duyurular burada!</p>
+    </div>
+</section>
+<div class="news-filter-bar">
+    <label for="sortNews">Sırala:</label>
+    <select id="sortNews">
+        <option value="desc">En Yeni</option>
+        <option value="asc">En Eski</option>
+        <option value="az">A-Z</option>
+        <option value="za">Z-A</option>
+    </select>
+    <input type="text" id="searchNews" placeholder="Haber başlığı ara..." />
+</div>
+<div class="container">
+    <div class="news-grid" id="newsGrid">
+        <!-- JS ile doldurulacak -->
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal" id="newsModal">
+    <div class="modal-content">
+        <span class="modal-close" onclick="closeNewsModal()">&times;</span>
+        <div style="text-align: center;">
+            <img class="modal-image" id="modalImage" src="" alt="">
+        </div>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="modal-meta" id="modalMeta"></div>
+        <p class="modal-description" id="modalDescription"></p>
+    </div>
+</div>

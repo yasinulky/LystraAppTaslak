@@ -1,0 +1,869 @@
+/* Home Index için özel stiller buraya eklenebilir. */ 
+
+/* ========================================
+   VIRTUAL TOUR SECTION STYLES
+   ======================================== */
+
+.virtual-tour-section {
+    background: #272535;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+    min-height: 800px;
+}
+
+.virtual-tour-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="1" fill="%23ffffff" opacity="0.1"/></svg>') repeat;
+    animation: starfield 20s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes starfield {
+    0% { transform: translateY(0) translateX(0); }
+    100% { transform: translateY(-100px) translateX(-100px); }
+}
+
+.virtual-tour-section .section-title h2 {
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 10px rgba(196, 166, 118, 0.3);
+    font-family: var(--main-font, 'Playfair', serif);
+}
+
+.virtual-tour-section .section-title h4 {
+    color: #c4a676;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.virtual-tour-section .section-title h4:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background: #c4a676;
+}
+
+.tour-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
+
+/* ========================================
+   CONTROLS PANEL
+   ======================================== */
+
+.tour-controls-panel {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 120px;
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+}
+
+.control-section {
+    margin-bottom: 35px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.control-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.control-section h5 {
+    color: #c4a676;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.control-section h5 i {
+    font-size: 1.1rem;
+}
+
+/* Model Buttons */
+.model-buttons {
+    display: grid;
+    gap: 12px;
+}
+
+.model-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.model-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(196, 166, 118, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.model-btn:hover::before {
+    left: 100%;
+}
+
+.model-btn:hover {
+    background: rgba(196, 166, 118, 0.1);
+    border-color: #c4a676;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(196, 166, 118, 0.2);
+}
+
+.model-btn.active {
+    background: linear-gradient(135deg, #c4a676, #a08759);
+    border-color: #c4a676;
+    color: #272535;
+    box-shadow: 0 10px 30px rgba(196, 166, 118, 0.3);
+}
+
+.model-btn i {
+    font-size: 1.3rem;
+    min-width: 20px;
+}
+
+.model-btn span {
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+/* View Controls */
+.view-controls {
+    display: grid;
+    gap: 20px;
+}
+
+.control-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.control-item label {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.control-item input[type="range"] {
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.control-item input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #c4a676;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(196, 166, 118, 0.5);
+}
+
+.control-item input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: #c4a676;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgba(196, 166, 118, 0.5);
+}
+
+/* Toggle Switch */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    transition: 0.3s ease;
+    border-radius: 26px;
+}
+
+.toggle-switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background: #ffffff;
+    transition: 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-switch input:checked + .slider {
+    background: #c4a676;
+    box-shadow: 0 0 15px rgba(196, 166, 118, 0.4);
+}
+
+.toggle-switch input:checked + .slider:before {
+    transform: translateX(24px);
+}
+
+/* Camera Controls */
+.camera-controls {
+    display: grid;
+    gap: 10px;
+}
+
+.control-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 12px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.control-btn:hover {
+    background: rgba(196, 166, 118, 0.1);
+    border-color: #c4a676;
+    transform: translateX(5px);
+}
+
+.control-btn i {
+    font-size: 1.1rem;
+    min-width: 16px;
+}
+
+/* Info Panel */
+.info-panel {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.model-description {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+/* ========================================
+   CESIUM VIEWER CONTAINER
+   ======================================== */
+
+.cesium-viewer-container {
+    position: relative;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    background: #000;
+}
+
+.cesium-viewer {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(39, 37, 53, 0.98);
+    backdrop-filter: blur(15px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    border-radius: 20px;
+    transition: opacity 0.5s ease;
+}
+
+.loading-overlay.active {
+    display: flex;
+    opacity: 1;
+}
+
+.loading-content {
+    text-align: center;
+    color: #ffffff;
+}
+
+.loading-content h4 {
+    color: #c4a676;
+    margin: 30px 0 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.loading-content p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 30px;
+}
+
+/* 3D Loader */
+.loader-3d {
+    perspective: 1000px;
+    margin-bottom: 20px;
+}
+
+.cube {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    animation: rotateCube 2s infinite linear;
+}
+
+.face {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #c4a676, #a08759);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.face.front { transform: rotateY(0deg) translateZ(30px); }
+.face.back { transform: rotateY(180deg) translateZ(30px); }
+.face.right { transform: rotateY(90deg) translateZ(30px); }
+.face.left { transform: rotateY(-90deg) translateZ(30px); }
+.face.top { transform: rotateX(90deg) translateZ(30px); }
+.face.bottom { transform: rotateX(-90deg) translateZ(30px); }
+
+@keyframes rotateCube {
+    0% { transform: rotateX(0) rotateY(0); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 200px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #c4a676, #a08759);
+    border-radius: 2px;
+    width: 0%;
+    animation: loadingProgress 3s ease-in-out infinite;
+}
+
+@keyframes loadingProgress {
+    0% { width: 0%; }
+    50% { width: 70%; }
+    100% { width: 100%; }
+}
+
+/* Loading Steps */
+.loading-steps {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+    border-left-color: #c4a676;
+    background: rgba(196, 166, 118, 0.1);
+    transform: translateX(5px);
+}
+
+.step.completed {
+    opacity: 0.8;
+    border-left-color: #28a745;
+    background: rgba(40, 167, 69, 0.1);
+}
+
+.step i {
+    font-size: 1.2rem;
+    color: #c4a676;
+    min-width: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.step.active i {
+    animation: stepPulse 2s infinite;
+}
+
+.step.completed i {
+    color: #28a745;
+}
+
+.step span {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.step.active span {
+    color: #ffffff;
+}
+
+@keyframes stepPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+/* Navigation Help */
+.navigation-help {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(26, 26, 46, 0.95);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 300px;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+}
+
+.navigation-help.show {
+    transform: translateX(0);
+}
+
+.navigation-help h6 {
+    color: #c4a676;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.help-items {
+    display: grid;
+    gap: 10px;
+}
+
+.help-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.85rem;
+}
+
+.help-icon {
+    color: #c4a676;
+    min-width: 20px;
+    text-align: center;
+}
+
+.close-help {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.close-help:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+/* Action Buttons */
+.fullscreen-btn,
+.screenshot-btn {
+    position: absolute;
+    bottom: 20px;
+    background: rgba(26, 26, 46, 0.9);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+.fullscreen-btn {
+    right: 20px;
+}
+
+.screenshot-btn {
+    right: 80px;
+}
+
+.fullscreen-btn:hover,
+.screenshot-btn:hover {
+    background: rgba(196, 166, 118, 0.2);
+    border-color: #c4a676;
+    color: #c4a676;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(196, 166, 118, 0.2);
+}
+
+/* ========================================
+   MODEL INFO CARDS
+   ======================================== */
+
+.model-info-cards .info-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.info-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(196, 166, 118, 0.1), transparent);
+    transition: left 0.6s ease;
+}
+
+.info-card:hover::before {
+    left: 100%;
+}
+
+.info-card:hover {
+    background: rgba(196, 166, 118, 0.1);
+    border-color: #c4a676;
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(196, 166, 118, 0.2);
+}
+
+.info-card.active {
+    background: rgba(196, 166, 118, 0.15);
+    border-color: #c4a676;
+    box-shadow: 0 15px 40px rgba(196, 166, 118, 0.3);
+}
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #c4a676, #a08759);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(196, 166, 118, 0.3);
+}
+
+.card-icon::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #c4a676, #a08759, #c4a676);
+    border-radius: 50%;
+    z-index: -1;
+    animation: rotateGradient 3s linear infinite;
+}
+
+@keyframes rotateGradient {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.card-icon i {
+    font-size: 1.8rem;
+    color: #272535;
+}
+
+.info-card h5 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.info-card p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ========================================
+   TOOLTIPS
+   ======================================== */
+
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]:hover::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(26, 26, 46, 0.95);
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    z-index: 1000;
+    margin-bottom: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+[data-tooltip]:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: rgba(26, 26, 46, 0.95);
+    z-index: 1000;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: 992px) {
+    .virtual-tour-section .section-title h2 {
+        font-size: 2.5rem;
+    }
+    
+    .tour-controls-panel {
+        margin-bottom: 30px;
+        position: static;
+        max-height: none;
+    }
+    
+    .cesium-viewer-container {
+        height: 500px;
+    }
+    
+    .navigation-help {
+        position: static;
+        transform: none;
+        margin-bottom: 20px;
+        max-width: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .virtual-tour-section {
+        padding: 60px 0;
+    }
+    
+    .virtual-tour-section .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .cesium-viewer-container {
+        height: 400px;
+    }
+    
+    .model-buttons {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    
+    .model-btn {
+        padding: 12px;
+        font-size: 0.85rem;
+    }
+    
+    .model-btn i {
+        font-size: 1.1rem;
+    }
+    
+    .fullscreen-btn,
+    .screenshot-btn {
+        width: 45px;
+        height: 45px;
+        bottom: 15px;
+    }
+    
+    .screenshot-btn {
+        right: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cesium-viewer-container {
+        height: 350px;
+        border-radius: 15px;
+    }
+    
+    .tour-controls-panel {
+        padding: 20px;
+        border-radius: 15px;
+    }
+    
+    .model-buttons {
+        grid-template-columns: 1fr;
+    }
+    
+    .info-card {
+        padding: 20px 15px;
+    }
+    
+    .card-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    
+    .card-icon i {
+        font-size: 1.5rem;
+    }
+}
+
+/* ========================================
+   CESIUM WIDGET CUSTOMIZATIONS
+   ======================================== */
+
+.cesium-viewer .cesium-widget-credits {
+    display: none !important;
+}
+
+.cesium-viewer .cesium-navigation-help-button {
+    display: none !important;
+}
+
+.cesium-viewer .cesium-fullscreenButton {
+    display: none !important;
+}
+
+.cesium-viewer .cesium-home-button {
+    background: rgba(26, 26, 46, 0.9) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+}
+
+.cesium-viewer .cesium-toolbar-button:hover {
+    background: rgba(196, 166, 118, 0.2) !important;
+    border-color: #c4a676 !important;
+}
+
+.cesium-viewer .cesium-sceneModePicker-wrapper {
+    background: rgba(26, 26, 46, 0.9) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+}
+
+.cesium-viewer .cesium-projectionPicker-wrapper {
+    background: rgba(26, 26, 46, 0.9) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+} 

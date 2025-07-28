@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LystraApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/plugins.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom-layout.css" />
+    <!-- Cesium.js CDN -->
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.112/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.112/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+    <div class="loader-wrap">
+        <div class="loader-item">
+            <div class="cd-loader-layer" data-frame="25">
+                <div class="loader-layer"></div>
+            </div>
+            <span class="loader"><img src="/images/lystralogo.png" alt="Lystra Logo" style="height:48px;"></span>
+        </div>
+    </div>
+    <div id="main">
+        @await Html.PartialAsync("_Header")
+        
+            @RenderBody()
+        @await Html.PartialAsync("_Footer")
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/plugins.js"></script>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/scripts.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+</body>
+</html>
